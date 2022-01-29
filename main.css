@@ -48,7 +48,6 @@ nav{
     height: 100vh;
     text-align: center;
     z-index: 998;
-    display: none;
 }
 nav a{
     text-decoration: none;
