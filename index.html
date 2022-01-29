@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<htm lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Luis lópez</title>
+</head>
+<body>
+    <header>
+        <h2>Luis lópez</h2>
+    </header>
+    <button id="btn-amburguesa">
+        <span class="material-icons amburguesa">menu</span>
+    </button>
+     <nav id="panel"> 
+         <a id="prueb" href="#reloj_alarma">Reloj y alarma</a>
+         <a href="#eventos_teclado">Sección 2</a>
+         <a href="#seccion3">Sección 3</a>
+         <a href="#seccion4">Sección 4</a>
+         <a href="#seccion5">Sección 5</a>
+     </nav>
+     <main>
+         <section id="reloj_alarma">
+             <h2>Reloj digital y alarma</h2>
+             <div id="reloj-digital">
+                 <button id="iniciar_reloj">Iniciar reloj</button>
+                 <button id="detener_reloj">Detener reloj</button>
+                 <button id="iniciar_alarma">Iniciar alarma</button>
+                 <button id="detener_alarma">Detener alarma</button>
+                 <div id="contenedor_mostrar_reloj">
+                     <span id="mostrar_reloj"></span>
+                 </div>
+                 <div>
+                     <audio id="sonido_alarma" src="sonidoalarma.mp3"></audio>
+                 </div>
+             </div>
+         </section>
+         <section id="eventos_teclado">
+             <h2>Eventos de teclado</h2>
+             <div id="contenedor_juego">
+                 <div id="jugador"></div>
+             </div>
+         </section>
+         <section id="seccion3">Sección 3</section>
+         <section id="seccion4">Sección 4</section>
+         <section id="seccion5">Sección 5</section>
+     </main>
+     <!--type="module" es para que las export y import
+     se hagan correctamente-->
+    <script src="index.js" type="module"></script>
+</body>
+</htm>
